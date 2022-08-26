@@ -1,0 +1,77 @@
+{
+  "employee": [
+    {
+      "name": "test",
+      "email": "test1@gmail.com",
+      "number": "12121212121",
+      "dob": "2022-02-01",
+      "gender": "male",
+      "d0b": "2022-02-05",
+      "id": 1
+    },
+    {
+      "name": "test",
+      "email": "test1@gmail.com",
+      "number": "12121212121",
+      "dob": "2022-02-01",
+      "gender": "male",
+      "d0b": "2022-02-05",
+      "id": 2
+    },
+    {
+      "name": "test",
+      "email": "test1@gmail.com",
+      "number": "12121212121",
+      "dob": "2022-02-01",
+      "gender": "male",
+      "d0b": "2022-02-05",
+      "id": 3
+    },
+    {
+      "name" :"test",
+      "email": "test1@gmail.com",
+      "number": "12121212121",
+      "dob": "2022-02-01",
+      "gender": "male",
+      "d0b": "2022-02-05",
+      "id": 4
+    },
+    {
+      "name": "test",
+      "email": "test1@gmail.com",
+      "number": "12121212121",
+      "dob": "2022-02-01",
+      "gender": "male",
+      "d0b": "2022-02-05",
+      "id": 5
+    },
+    {
+      "name": "test",
+      "email": "test1@gmail.com",
+      "number": "12121212121",
+      "dob": "2022-02-01",
+      "gender": "male",
+      "d0b": "2022-02-05",
+      "id": 6
+    },
+    {
+      "name": "test",
+      "email": "test1@gmail.com",
+      "number": "12121212121",
+      "dob": "2022-02-01",
+      "gender": "male",
+      "d0b": "2022-02-05",
+      "id": 7
+    },
+    {
+      "name": "test",
+      "email": "test1@gmail.com",
+      "number": "12121212121",
+      "dob": "2022-02-01",
+      "gender": "male",
+      "d0b": "2022-02-05",
+      "id": 8
+    }
+
+  ]
+}
