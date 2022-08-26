@@ -15,7 +15,7 @@ import { useNavigate } from "react-router-dom";
 function AddData() {
   const [data, setData] = useState({});
 
-  function handleInputChange(e) {
+  function handleData(e) {
     const { name, value, checked, type } = e.target;
     setData({ ...data, [name]: type === "checkbox" ? checked : value });
   }
@@ -24,9 +24,11 @@ function AddData() {
   const handlesubmit = (e) => {
     e.preventDefault();
     axios
-      .post("http://localhost:3001/employee", data).then(function (response) {
-        console.log(response);
-      })   
+      .post("http://localhost:3001/employee", data).then(function (res) {
+        console.log(res);
+      })   .catch(function (error) {
+        console.log(error);
+      });
 
       navigate("/")
       alert("Details Added")
@@ -45,7 +47,7 @@ function AddData() {
               name="name"
               label="Name"
               type="text"
-              onChange={handleInputChange}
+              onChange={handleData}
             />
             <FormLabel>Email</FormLabel>
             <TextField
@@ -53,7 +55,7 @@ function AddData() {
               name="email"
               label="email"
               type="text"
-              onChange={handleInputChange}
+              onChange={handleData}
             />
             <FormLabel>Number</FormLabel>
             <TextField
@@ -61,7 +63,7 @@ function AddData() {
               name="number"
               label="number"
               type="Number"
-              onChange={handleInputChange}
+              onChange={handleData}
             />
             <FormLabel>D-0-B</FormLabel>
             <TextField
@@ -69,11 +71,11 @@ function AddData() {
               name="d0b"
               label=""
               type="Date"
-              onChange={handleInputChange}
+              onChange={handleData}
             />
 
             <FormLabel>Gender</FormLabel>
-            <RadioGroup name="gender" onChange={handleInputChange}>
+            <RadioGroup name="gender" onChange={handleData}>
               <FormControlLabel
                 key="male"
                 value="male"

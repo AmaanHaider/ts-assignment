@@ -92,7 +92,9 @@ function Home() {
       <div className="navbar">
         <div className="addemployees">
           <Link to="./add">
-            <Button style={{marginBottom:"2%"}} variant="outlined">Add Employess</Button>
+            <Button style={{ marginBottom: "2%" }} variant="outlined">
+              Add Employess
+            </Button>
           </Link>
         </div>
       </div>
@@ -156,7 +158,6 @@ function Home() {
                         label="name"
                         type="text"
                         variant="filled"
-                      
                         onChange={handlechange}
                       />
                       <TextField
@@ -165,7 +166,6 @@ function Home() {
                         label="email"
                         type="text"
                         variant="filled"
-                       
                         onChange={handlechange}
                       />
                       <TextField
@@ -174,7 +174,6 @@ function Home() {
                         label="number"
                         type="text"
                         variant="filled"
-                      
                         onChange={handlechange}
                       />
                       <TextField
@@ -183,7 +182,6 @@ function Home() {
                         label=""
                         type="Date"
                         variant="filled"
-                       
                         onChange={handlechange}
                       />
 
