@@ -24,14 +24,9 @@ function AddData() {
   const handlesubmit = (e) => {
     e.preventDefault();
     axios
-      .post("http://localhost:3001/employee", data)
-
-      .then(function (response) {
+      .post("http://localhost:3001/employee", data).then(function (response) {
         console.log(response);
-      })
-      .catch(function (error) {
-        console.log(error);
-      });
+      })   
 
       navigate("/")
       alert("Details Added")

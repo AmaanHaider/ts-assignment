@@ -91,7 +91,7 @@ function Home() {
     <>
       <div className="navbar">
         <div className="addemployees">
-          <Link to="./component/add">
+          <Link to="./add">
             <Button style={{marginBottom:"2%"}} variant="outlined">Add Employess</Button>
           </Link>
         </div>
